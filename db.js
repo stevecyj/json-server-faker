@@ -36,7 +36,7 @@ function generateData() {
             updated_at: updated_at
         });
     }
-    return { customers: data };
+    return { contacts: data };
 }
 
 module.exports = generateData;
